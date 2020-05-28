@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".FoodDetailsActivity">
+
+
+    <TextView
+        android:id="@+id/food_name"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:textSize="30sp"/>
+
+
+    <Button
+        android:id="@+id/favourite_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Favourite" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Food Description"
+        android:textSize="20sp"/>
+
+
+    <TextView
+        android:id="@+id/food_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/food_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients"
+        android:textSize="20sp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ingredient_recycle_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/Ingredients"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:textSize="20sp"
+        android:text="Steps" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/steps_recycle_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
